@@ -1,2 +1,9 @@
-adversarial_noise.iq
-perturbations_sequence.txt
+# Ignore everything
+*
+
+# But not these extensions
+!*.py
+!*.ipynb
+
+# Allow directories so git can see files inside
+!*/
